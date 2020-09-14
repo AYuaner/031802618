@@ -33,7 +33,7 @@ def Readin(TextAddress):
     f.close()
     return Str
 
-#   结果输入函数，将内存中的结果写入硬盘
+#   结果输出函数，将内存中的结果写入硬盘
 def WriteOut(Jaccard, TextAddress):
     f = open(TextAddress,"w",encoding="UTF-8")
     f.write( str(Jaccard)[0:4] )
