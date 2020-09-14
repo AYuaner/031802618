@@ -82,4 +82,4 @@ num = Jaccard_Similarity(Str_A, Str_B)
 WriteOut(num, sys.argv[3])
 
 #   Test()
-Analyze()
+#   Analyze()
