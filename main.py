@@ -36,7 +36,7 @@ def Readin(TextAddress):
 #   结果输入函数，将内存中的结果写入硬盘
 def WriteOut(Jaccard, TextAddress):
     f = open(TextAddress,"w",encoding="UTF-8")
-    f.write( str(Jaccard) )
+    f.write( str(Jaccard)[0:4] )
     f.close()
 
 #   数据测试函数，测试10个orig文件，得出9个重复率
